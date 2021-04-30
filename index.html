@@ -7,7 +7,11 @@
       crossorigin="anonymous"
     ></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Responsive</title>
+    <meta name="description" content="Our website description">
+    <meta name="keywords" content="HTML, CSS, responsive, form, flex">
+    <meta name="google" content="notranslate" />
+    <meta name="author" content="kristina">
+    <title>Forms & meta tags</title>
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
@@ -81,6 +85,50 @@
             <p>4</p>
           </div>
         </div>
+      </div>
+    </section>
+
+    <section class="section-form">
+      <div class="container">
+        <form class="form" action="">
+          <div class="wraper-form">
+            <label for="name">First Name </label>
+            <input class="input-wraper" type="text" id="name" name="fisrtname" placeholder="Enter Your Name.." required>
+          </div>
+          <div  class="wraper-form">
+            <label for="passw">Password</label>
+            <input class="input-wraper" type="password" id="passw" name="mypassword" placeholder="Enter Your Password.." required>
+          </div>
+
+          <div class="wraper-form">
+            <label for="">Review</label>
+            <textarea class="textarea-wraper" name="" id="" placeholder="Enter Your Message..."></textarea>
+          </div>
+
+          <div class="radio">
+            <div>
+              <input type="radio" id="firstage" name="age">
+              <label for="firstage"> 18- 35 </label>
+            </div>
+            <div>
+              <input type="radio" id="secondage" name="age">
+              <label for="secondage"> 35 - 55</label>
+            </div>
+          </div>
+
+          <div class="checkbox">
+            <div>
+              <input type="checkbox" id="hobbymucis" name="music">
+              <label for="hobbymucis"> Music </label>
+            </div>
+            <div>
+              <input type="checkbox" id="hobbydance" name="dance">
+              <label for="hobbydance"> Dance</label>
+            </div>
+          </div>
+
+          <button class="btn-submit" type="submit">Send</button>
+        </form>
       </div>
     </section>
   </body>
